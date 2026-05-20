@@ -22,6 +22,9 @@
             <p class="text-xl md:text-2xl text-secondary">
                 Ubhro <span class="gradient-text font-bold">knolzi</span> ke saath
             </p>
+	<h2 style="color:red; text-align:center;">
+    Hello Vanshika Jain 🚀
+</h2>
         </div>
     </div>
 </section>
