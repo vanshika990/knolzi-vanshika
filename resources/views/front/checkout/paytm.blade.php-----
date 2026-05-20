@@ -1,0 +1,22 @@
+<x-layout-front-base>
+    @section('meta_title', 'Checkout')
+    @section('meta_description', 'Checkout')
+    @section('meta_image',asset('assets/front/images/logo.png'))
+    @section('content')
+    <!-- static page header start -->
+    <section class="static-page-header">
+        <div class="card card-default">
+            <div class="card-header">
+                Laravel - Razorpay Payment Gateway Integration
+            </div>
+
+            <div class="card-body text-center">
+                <form action="{{ route('razorpay.payment.store') }}" method="POST" >
+                    @csrf
+                    <button>Paytm</button>
+                </form>
+            </div>
+        </div>
+    </section>
+    @stop
+</x-layout-front-base>
