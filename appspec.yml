@@ -1,0 +1,20 @@
+version: 0.0
+os: linux
+
+files:
+  - source: /
+    destination: /var/www/html/knolzi-vanshika
+
+permissions:
+  - object: /var/www/html/knolzi-vanshika
+    owner: ubuntu
+    group: ubuntu
+    mode: 775
+    type:
+      - directory
+
+hooks:
+  AfterInstall:
+    - location: scripts/deploy.sh
+      timeout: 300
+      runas: ubuntu
