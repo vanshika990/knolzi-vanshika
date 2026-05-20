@@ -1,19 +1,19 @@
 version: 0.0
 os: linux
 
+file_exists_behavior: OVERWRITE
+
 files:
   - source: /
     destination: /var/www/html/knolzi-vanshika
-    overwrite: true
 
 permissions:
   - object: /var/www/html/knolzi-vanshika
     owner: ubuntu
-    group: www-data
+    group: ubuntu
     mode: 775
     type:
       - directory
-      - file
 
 hooks:
   AfterInstall:
