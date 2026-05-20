@@ -4,14 +4,16 @@ os: linux
 files:
   - source: /
     destination: /var/www/html/knolzi-vanshika
+    overwrite: true
 
 permissions:
   - object: /var/www/html/knolzi-vanshika
     owner: ubuntu
-    group: ubuntu
+    group: www-data
     mode: 775
     type:
       - directory
+      - file
 
 hooks:
   AfterInstall:
