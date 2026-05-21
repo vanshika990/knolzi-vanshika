@@ -26,6 +26,7 @@
     Hello Vanshika Jain 🚀
 </h2>
 <h1>DEVANSH</h1>
+<h1>KHUSHBOO & JIYA</h1>
         </div>
     </div>
 </section>
