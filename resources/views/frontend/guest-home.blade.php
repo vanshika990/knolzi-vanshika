@@ -8,10 +8,6 @@
             <h1 class="text-4xl md:text-6xl font-bold mb-6 leading-tight">
                 <span class="gradient-text-warm">Millimeter Nahi</span>
                 <br>
-		<h2 style="color:red; text-align:center;">
-    Hello Vanshika Jain 🚀
-</h2>
-<h1>lio the tiger</h1>
                 <span class="gradient-text-cool">Centimeter Bano.</span>
             </h1>
 
@@ -22,11 +18,6 @@
             <p class="text-xl md:text-2xl text-secondary">
                 Ubhro <span class="gradient-text font-bold">knolzi</span> ke saath
             </p>
-	<h2 style="color:red; text-align:center;">
-    Hello Vanshika Jain 🚀
-</h2>
-<h1>DEVANSH</h1>
-<h1>KHUSHBOO & JIYA</h1>
         </div>
     </div>
 </section>
